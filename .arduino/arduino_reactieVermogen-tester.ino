@@ -50,7 +50,7 @@ void loop() {
     Serial.println(" is aan. Druk op de juiste knop!");
     delay(1000);
   }
-
+// zorgt voor de willekeurige volgorde van de leds
   for (int i = 0; i < 3; i++) {
     if (digitalRead(buttonPins[i]) == LOW) {
       if (currentLed == 0 && !timingActive) {
@@ -86,7 +86,7 @@ void loop() {
     delay(200);
   }
 }
-
+// Hier maak je de verbinding met de server.
 void sendTimeToServer(unsigned long time, String uuid) {
   if (WiFi.status() == WL_CONNECTED) {
     Serial.println("Connecting to server...");
