@@ -1,5 +1,14 @@
 # ReactieVermogen-TesterV2
-Reactie Vermogen tester met behulp van arduino
+Reactie Vermogen tester met behulp van arduino.
+# Hoe maak je het klaar voor gebruik.
+#### Stap 1
+Download de .html folder.
+#### Stap 1
+Download arduino op je pc.
+#### Stap 4
+Impoteer het arduino bestand in de foler ".arduino" en pas de code aan. (zie onderstaande titles)
+#### Stap 5
+Maak de juiste arduino op bouw.
 # Vereisten
 Ga naar de arduino library en download "WifiNina" en de "Adafruit Inified sensor""
 # Aanpassen Code
